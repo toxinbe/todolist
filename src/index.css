@@ -1,13 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.bg-color-hunt1 {
+  background-color: #070f2b;
+}
+.bg-color-hunt2 {
+  background-color: #1b1a55;
+}
+.bg-color-hunt3 {
+  background-color: #535c91;
+}
+.bg-color-hunt4 {
+  background-color: #9290c3;
+}
+.text-color-hunt1 {
+  color: #070f2b;
+}
+.text-color-hunt2 {
+  color: #1b1a55;
+}
+.text-color-hunt3 {
+  color: #535c91;
+}
+.text-color-hunt4 {
+  color: #9290c3;
 }
