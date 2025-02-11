@@ -81,8 +81,8 @@ function Todo() {
     <>
       {contextHolder}
       <div className="flex justify-center">
-        <div className="w-[1080px] flex justify-center">
-          <div className="grid grid-flow-row gap-5 w-full pt-40">
+        <div className="flex justify-center w-[1080px]">
+          <div className="grid grid-flow-row w-full gap-10 pt-40">
             <AddTodo
               formAdd={formAdd}
               setformAdd={setformAdd}
@@ -90,6 +90,7 @@ function Todo() {
               loadingAdd={loadingAdd}
             />
             <TodoList
+              TODO_STATUS={TODO_STATUS}
               todoList={todoList}
               settodoList={settodoList}
               loading={loading}
